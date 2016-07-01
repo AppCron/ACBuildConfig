@@ -19,8 +19,9 @@ Work in progress ... 🐳
    * Do not set it on target level, otherwise it might override your project specific build settings.
 6. Do the same for **Release**.
 
-You should now see a new column titled **Config.File (ACBuildConfig.xcconfig)** in your Target's Build Settings.  
-Make sure to have selected the **Levels** display option, otherwise you won't see the columns.
+You should now see a new column titled **Config.File (ACBuildConfig.xcconfig)** in your Target's Build Settings.
+Make sure to have selected the **Levels** display option, otherwise you won't see the columns.  
+Sometimes Xcode doesn't show the new column. In this case restarting Xcode might help.
 
 You can still override the settings of the config file with target or project specific settings in the *Build Settings* tab.
 
