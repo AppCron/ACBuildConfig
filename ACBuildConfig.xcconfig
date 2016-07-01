@@ -1,0 +1,5 @@
+//  ACBuildConfig.xcconfig
+//  Version 0.0
+
+ENABLE_BITCODE = NO
+
