@@ -1,13 +1,12 @@
 # ACBuildConfig
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/appcron/acinteractor/master/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-cb0010.svg)](https://raw.githubusercontent.com/appcron/acinteractor/master/LICENSE)
+[![Xcode Version](https://img.shields.io/badge/Xcode-7.3.1-blue.svg)](https://developer.apple.com/go/?id=xcode-7.3.1-rn)
 
 Xcode Build Settings for Swift and Objective-C projects.  
 Contains the recommended settings we use at AppCron.
-- Disables Bitcode
-- Enables recommended warnings
-
-## Current Status
-Work in progress ... 🐳
+- Disables Bitcode.
+- Enables recommended warnings.
+- Enables recommended Analyzer hints.
 
 ## Installation
 1. Add the **ACBuildConfig.xcconfig** file to your Xcode project.
@@ -19,7 +18,7 @@ Work in progress ... 🐳
    * Do not set it on target level, otherwise it might override your project specific build settings.
 6. Do the same for **Release**.
 
-You should now see a new column titled **Config.File (ACBuildConfig.xcconfig)** in your Target's Build Settings.
+You should now see a new column titled **Config.File (ACBuildConfig.xcconfig)** in your Target's Build Settings.  
 Make sure to have selected the **Levels** display option, otherwise you won't see the columns.  
 Sometimes Xcode doesn't show the new column. In this case restarting Xcode might help.
 
