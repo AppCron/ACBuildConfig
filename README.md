@@ -1,6 +1,6 @@
 # ACBuildConfig
 [![License](https://img.shields.io/badge/license-Apache%202.0-cb0010.svg)](https://raw.githubusercontent.com/appcron/acinteractor/master/LICENSE)
-[![Xcode Version](https://img.shields.io/badge/Xcode-7.3.1-blue.svg)](https://developer.apple.com/go/?id=xcode-7.3.1-rn)
+[![Xcode Version](https://img.shields.io/badge/Xcode-8.3.3-blue.svg)]
 
 Xcode Build Settings for Swift and Objective-C projects.  
 Contains the recommended settings we use at AppCron.
