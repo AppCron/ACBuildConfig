@@ -1,9 +1,9 @@
 //
 //  ACBuildConfig.xcconfig
 //
-//  Optimized for Xcode 8.3.3
+//  Optimized for Xcode 9.0.1
 //
-//  Version 0.3.0
+//  Version 1.0.0
 //
 
 // Build Options (iOS only)
