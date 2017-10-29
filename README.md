@@ -1,12 +1,13 @@
 # ACBuildConfig
-[![License](https://img.shields.io/badge/license-Apache%202.0-cb0010.svg)](https://raw.githubusercontent.com/appcron/acinteractor/master/LICENSE)
-![Xcode Version](https://img.shields.io/badge/Xcode-8.3.3-blue.svg)
+![Xcode Version](https://img.shields.io/badge/xcode-9.0.1-blue.svg)
+[![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](https://raw.githubusercontent.com/appcron/acbuildconfig/master/LICENSE.txt)
 
-Xcode Build Settings for Swift and Objective-C projects.  
+Xcode Build Settings for Swift and Objective-C projects.
 Contains the recommended settings we use at AppCron.
-- Disables Bitcode.
+- Enables the Pedantic Warnings setting.
 - Enables recommended warnings.
-- Enables recommended Analyzer hints.
+- Enables recommended Analyzer hints (Objective-C only).
+- Disables Bitcode (iOS only).
 
 ## Installation
 1. Add the **ACBuildConfig.xcconfig** file to your Xcode project.
